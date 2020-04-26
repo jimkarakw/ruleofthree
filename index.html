@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rule of Three Calculator</title>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container-wrapper">
+        
+        
+        <form id="theform">
+          <div class="topsection">
+            <div class="validationdiv">
+              <h1 style="font-size:2.5rem;">RULE OF <span style="color: rgb(86, 30, 240);">THREE</span> CALCULATOR</h1>
+              <div class="validation">
+                <h3 style="color:rgb(144, 33, 33);border:1px solid rgb(144, 33, 33);padding:.5rem;">Παρακαλώ Εισάγετε Θετικό Αριθμό!</h3>
+              </div> 
+            </div>
+            
+          </div>
+          <div class="topsection">
+            <div class="firstitem">
+              <div class="numberdiv">
+                <div class="number-togo">01. </div> IN:
+              </div>
+              
+              <div class="mazemaleft">
+                <input type="number" class="statosa" placeholder="(number)"/>
+                <input type="text" class="stoixeia1" placeholder="(eg: ml)">
+              </div>
+              
+            </div>
+            <div class="seconditem">
+              <div class="numberdiv">
+                <div class="number-togo">02.</div> I HAVE:
+              </div>
+              
+              <div class="mazemaright">
+                <input type="number" class="exwtosa" placeholder="(number)"/>
+                <input type="text" class="stoixeia2" placeholder="(eg: gr)">
+              </div>
+              
+            </div>
+            
+          </div>
+          <div class="bottomsection">
+            <div class="thirditem">
+              <div class="numberdiv">
+                <div class="number-togo">03.</div> IF I HAVE:
+              </div>
+              
+              <div class="mazemaresult">
+                <input type="number" class="staalla" placeholder="(number)" step="any"/>
+                <input type="text" class="stoixeia3" placeholder="(eg: ml)">
+              </div>
+              
+            </div>
+            
+          </div>
+          <div class="koutiapotelesmatos">
+              <p style="text-align: center; padding-top: 1.5rem; font-size: 1.5rem;">
+                  RESULT:
+                </p>
+            
+          <div class="bottomsection results" style="margin-top: 1.5rem;">
+              
+            <input type="number" id="resultriwn" />
+            <input type="text" id="resultstoixeio" placeholder="(eg: ml)">
+          </div>
+          
+          </div>
+      </div>
+      <div class="resultbtndiv">
+        <button class="apotelesma">
+          RESULT
+        </button>
+        <input
+          class="apotelesma reset"
+          type="button"
+          onclick="resetForma()"
+          value="RESET FORM"
+        />
+      </div>
+        </form>
+        
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
