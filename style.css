@@ -153,9 +153,6 @@ input:focus::placeholder {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.stoixeia3 {
-  pointer-events: none;
-}
 #resultstoixeio {
   margin-left: 0.4rem;
   pointer-events: none;
