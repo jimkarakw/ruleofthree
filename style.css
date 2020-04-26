@@ -173,7 +173,7 @@ input:focus::placeholder {
 }
 #theform {
   padding: 5rem 0;
-  height: 55vh;
+  height: 60vh;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
