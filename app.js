@@ -15,7 +15,6 @@ resetButton.addEventListener("click", resetForma);
 //Result on click
 function vgaleToApotelesma() {
   event.preventDefault();
-
   const staTosa = parseFloat(document.querySelector(".statosa").value);
   const exoumeTosa = parseFloat(document.querySelector(".exwtosa").value);
   const staAlla = parseFloat(document.querySelector(".staalla").value);
@@ -41,9 +40,7 @@ function vgaleToApotelesma() {
 function resetForma() {
   event.preventDefault();
   theForm.reset();
-  const resetAndHide = document
-    .querySelector(".koutiapotelesmatos")
-    .classList.remove("show");
+  document.querySelector(".koutiapotelesmatos").classList.remove("show");
   theForm.classList.remove("addheight");
   showValidation.classList.remove("show");
 }
