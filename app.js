@@ -37,9 +37,6 @@ function vgaleToApotelesma() {
     showApotelesma.classList.add("hide");
   }
 }
-function stoixeioResult() {
-  event.preventDefault();
-}
 // reset the Form
 function resetForma() {
   event.preventDefault();
