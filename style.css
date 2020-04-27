@@ -115,6 +115,9 @@ input:focus::placeholder {
   -ms-flex-pack: distribute;
   justify-content: space-around;
 }
+.validation h3{
+text-align:center;
+}
 .firstitem,
 .seconditem,
 .thirditem {
